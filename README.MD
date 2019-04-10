@@ -1,4 +1,4 @@
-##Changing the firmware for a Sierra MC8335/Gobi3000
+## Changing the firmware for a Sierra MC8335/Gobi3000
 
 Unfortunately this seems to require Windows, and I haven't been able to get it to work in a VM with passthrough.
 
