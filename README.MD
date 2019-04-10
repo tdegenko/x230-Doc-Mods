@@ -16,3 +16,8 @@ From Windows run:
 ```
 
 Image 4 is T-Mobile, 6 is Generic GSM
+
+
+## x220 Keyboard
+
+Keyboard swapped out for the x220 and embedec controller flashed using tools from [here](//github.com/hamishcoleman/thinkpad-ec).
