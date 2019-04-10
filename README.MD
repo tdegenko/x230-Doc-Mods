@@ -4,8 +4,10 @@ Unfortunately this seems to require Windows, and I haven't been able to get it t
 
 From Windows run:
 
+```
  cd C:\Program Files (x86)\Sierra Wireless Inc\Gobi\
  GobiQDLService
  GobiImgMgr -FWUPDATE AUTO -DEFAULTIMAGE 4
+```
 
 Image 4 is T-Mobile, 6 is Generic GSM
