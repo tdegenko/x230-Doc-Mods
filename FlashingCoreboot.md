@@ -42,8 +42,10 @@ E                                 (VCC)         CLK
 ## Setup
 
 Load drivers:
+```
 > modprobe spi_bcm2835
 > modprobe spidev
+```
 
 ## Flash Coreboot
 
