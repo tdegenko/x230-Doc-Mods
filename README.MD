@@ -1,3 +1,7 @@
+## Coreboot
+
+[Flashing Coreboot is covered here.](/FlashingCoreboot.md)
+
 ## bootsplash.jpg
 
 This is a custom bootsplash for coreboot.
