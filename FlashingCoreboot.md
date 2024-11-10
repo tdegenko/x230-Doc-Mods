@@ -3,7 +3,7 @@
 Based on the [Skulls](//github.com/merge/skulls/tree/master/x230) & 
 [Heads](//github.com/osresearch/heads-wiki/blob/master/Installing-Heads.md)
 
-The x230 splits its 12 MB SPI Flash across two chips. A 4 MB Macronix chip 
+The x230 splits its 12 MB SPI Flash across two chips. A 4 MB Macronix chip (Top, near screen) 
 containing the BIOS/UEFI and an 8 MB Winbond chip containing everything else.
 Both chips have the same pin-out as follows.
 
@@ -48,6 +48,13 @@ Load drivers:
 ```
 
 ## Flash Coreboot
+
+### Splitting Coreboot
+
+> dd if=coreboot.rom of=coreboot-top.rom bs=1M skip=8
+> dd if=coreboot.rom of=coreboot-bottom.rom bs=1M count=8
+
+### Flashing
 
 Coreboot goes on the 4MB chip, which is the chip nearest screen. So, connect the 
 test clip to the chip and do the following.
